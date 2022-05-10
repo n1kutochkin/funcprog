@@ -28,7 +28,7 @@ in x + y
 Ответ: 5
 
 GHCI: 
-```
+```hs
 Prelude> func = let x = 5 in x
 Prelude> func
 5
@@ -38,7 +38,7 @@ Prelude> func
 Ответ: 25
 
 GHCI:
-```
+```hs
 Prelude> func = let x = 5 in x * x
 Prelude> func
 25
@@ -47,7 +47,7 @@ Prelude> func
 Ответ: 30
 
 GHCI:
-```
+```hs
 Prelude> func = let x = 5; y = 6 in x * y
 Prelude> func
 30
@@ -57,7 +57,7 @@ Prelude> func
 Ответ: 8
 
 GHCI:
-```
+```hs
 Prelude> func = let x = 5; y = 1000 in x + 3
 Prelude> func
 8
@@ -66,7 +66,7 @@ Prelude> func
 Ответ: 300
 
 GHCI:
-```
+```hs
 Prelude> func = let y = 10; x = 10*5 + y in x * 5
 Prelude> func
 300
